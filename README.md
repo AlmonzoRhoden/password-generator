@@ -3,7 +3,9 @@
 <h2>Screenshot of Deployed application on various devices<h2>
   
 ![Phone](https://user-images.githubusercontent.com/61447353/96191002-32701900-0f11-11eb-85dd-9d0fbfd01c62.PNG)
+
 ![Ipad](https://user-images.githubusercontent.com/61447353/96191050-516eab00-0f11-11eb-9963-3878ec5882b9.PNG)
+
 ![laptop](https://user-images.githubusercontent.com/61447353/96191090-664b3e80-0f11-11eb-8c68-1d4e5970cf7a.PNG)
 
 <h2> Descripition </h2>
