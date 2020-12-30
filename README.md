@@ -1,4 +1,4 @@
-<h1 align = "center" > HW #03 JavaScript: Password Generator </h1>
+<h1 align = "center" >Password Generator </h1>
 
 <h2>Screenshot of Deployed application on various devices<h2>
   
