@@ -4,79 +4,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="web developer,almonzo rhoden, html, css, javascript, bootstrap, responsive design, github, password, generator">
-    <meta name="description" content="A website to generate a random password">
-    <meta name="author" content="Almonzo Rhoden">
-    <meta name="keywords" content="web developer,almonzo rhoden, html, css, javascript, bootstrap, responsive design, github, password, generator">
-    <meta name="description" content="A website to generate a random password">
-    <meta name="author" content="Almonzo Rhoden">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- Almonzo's stylesheet -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!-- Almonzo's favicon -->
+    <link rel="icon" href="./assets/images/favicon_io/favicon-32x32.png" type="image/gif" sizes="32x32">
     <title>Almonzo's | Password Generator</title>
-    <link rel="icon" href="../password-generator/assets/images/favicon_io/favicon-16x16.png" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="../password-generator/assets/style.css" />
-    <script src="../password-generator/assets/script.js" defer></script>
   </head>
-  <body>
 
-    <h1>Almonzo's Password Generator</h1>
-    <video autoplay muted loop id="myVideo">
-      <source src="../password-generator/assets/images/cyber-security-bg2.mp4">
-      Your browser does not support HTML5 video.
-    </video>
+  <body>
+    <!-- Title of App -->
+    <h1>Almonzo's <br> Password Generator</h1>
+  
+    <!-- Container start-->
     <div class="container">
       <h2>Password Generator</h2>
+
+      <!-- Password results container -->
       <div class="result-container">
         <span id="result"></span>
-        <button class="btn" id="clipboard">
-          <i class="far fa-clipboard"></i>
+        <div class="" id="clipboard"></div>
         </button>
       </div>
+
+      <!-- Form control, password selection settings -->
       <div class="settings">
         <div class="setting">
+
+          <!-- Password numeric length -->
           <label>Password length</label>
           <input type="number" id="length" min='8' max='128' value='8' />
         </div>
         <div class="setting">
+          <!-- Uppercase letters choice -->
           <label>Include uppercase letters</label> 
           <input type="checkbox" id="uppercase" checked />
         </div>
         <div class="setting">
+          <!-- Lowercase letters choice -->
           <label>Include lowercase letters</label> 
           <input type="checkbox" id="lowercase" checked />
         </div>
         <div class="setting">
+
+          <!--  Numeric numbers choice-->
           <label>Include numbers</label> 
           <input type="checkbox" id="numbers" checked />
         </div>
+
+        <!--  Add symbols choice-->
         <div class="setting">
           <label>Include symbols</label> 
           <input type="checkbox" id="symbols" checked />
         </div>
       </div>
+      <!-- Container end -->
+
+      <!-- Generate password button -->
       <button class="btn btn-large" id="generate">
         Generate password
       </button>
       
-      <audio autoplay loop>
-        <source src="../password-generator/assets/bgm/Shine in the Dark.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-        </audio>
-
+      <!-- Putting footer in it's own row -->
       <div class="row">
         <div class= "col-lg-12 col-md-12 col-sm-12">
             
             <!--Footer-->
-             <footer class="card-text"><a href="https://www.linkedin.com/in/almonzorhoden/"><img class="linkedin-image"
-                src="../password-generator/assets/images/linkedin-icon.png" alt="linkedin-photo"></a>
-            <a href="https://github.com/AlmonzoRhoden"><img class="git-image" src="../password-generator/assets/images/github-icon.png"
-                alt="github-photo"></a>
-                &emsp; &#169; 2020
-            Almonzo Rhoden</footer>
-        </div>
+             <footer>
+                &emsp;  &#169; 2021 Almonzo Rhoden 😎 <br>
+                 All Rights Reserved.
+                 <!-- Github icon - font awesome -->
+                  <i class="fa fa-github fa-lg" style ="color: black" aria-hidden="true"></i>
+                  <!-- LinkedIn icon - font awesome -->
+                  <i class="fa fa-linkedin fa-lg b" style ="color: black" aria-hidden="true"></i>
+          </footer>
+        </div>     
     </div>
 
 </div>
+   
+<!-- Matrix background loop - do not touch-->
+<video autoplay muted loop id="myVideo">
+  <source src="./assets/images/cyber-security-bg2.mp4">
+  Your browser does not support HTML5 video.
+</video>
 
     </div>
+    <!-- Font-Awesome for icons-->
+    <script src="https://use.fontawesome.com/e8e8305b77.js"></script>
+    <!-- Almonzo's JavaScript -->
+    <script src="./assets/script.js" defer></script>
   </body>
 </html>
