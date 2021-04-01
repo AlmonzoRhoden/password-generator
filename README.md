@@ -1,6 +1,6 @@
 <h1 align = "center" >Password Generator </h1>
 
-<h2>Preview of application<h2>
+<h2>Preview of Application<h2>
 
 ![laptop](https://user-images.githubusercontent.com/61447353/96191090-664b3e80-0f11-11eb-8c68-1d4e5970cf7a.PNG)
 
