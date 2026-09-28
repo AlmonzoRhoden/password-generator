@@ -1,5 +1,8 @@
 // Almonzo's JavaScript
 
+var audio = document.getElementById("myaudio");
+audio.volume = 0.2;
+
 // Declaring variables for password
 const resultEl = document.getElementById('result');
 const lengthEl = document.getElementById('length');
@@ -81,3 +84,4 @@ function getRandomSymbol()
 	const symbols = '!@#$%^&*(){}[]=<>/,.'
 	return symbols[Math.floor(Math.random() * symbols.length)];
 }
+
