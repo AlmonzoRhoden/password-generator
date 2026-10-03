@@ -1,7 +1,6 @@
 // Almonzo's JavaScript
 
-var audio = document.getElementById("myaudio");
-audio.volume = 0.2;
+
 
 // Declaring variables for password
 const resultEl = document.getElementById('result');
@@ -12,6 +11,11 @@ const numbersEl = document.getElementById('numbers');
 const symbolsEl = document.getElementById('symbols');
 const generateEl = document.getElementById('generate');
 const clipboard = document.getElementById('clipboard');
+//Audio player
+var audio = document.getElementById("myaudio");
+audio.volume = 0.2;
+//Footer
+document.getElementById("footer-year").textContent = new Date().getFullYear();
 
 // Storing values in an object acessing key values
 const randomFunc = 
