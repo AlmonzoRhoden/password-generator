@@ -87,6 +87,14 @@ h2
 	width: 100%;
 }
 
+#supportBtn
+{
+	width: auto;
+	text-align: center;
+	margin: auto;
+	color:white;
+}
+
 .setting
  {
 	display: flex;
