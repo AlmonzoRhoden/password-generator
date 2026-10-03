@@ -24,7 +24,7 @@ const randomFunc =
 
 // Adding an event listener on + generic function to specfied id tags for password generation
 // Re-wrote code from arrow functions to regular
-addEventListener('click', function ()
+generateEl.addEventListener('click', function ()
 {
 	const length = +lengthEl.value;
 	const hasLower = lowercaseEl.checked;
