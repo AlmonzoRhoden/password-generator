@@ -89,11 +89,16 @@ h2
 
 #supportBtn
 {
-	width: auto;
+	width: 80%;
 	text-align: center;
 	margin: auto;
-	color:white;
+	
 }
+
+a:link, a:visited {
+	color: white; /* Change to your preferred color */
+	text-decoration: none;
+  }
 
 .setting
  {
